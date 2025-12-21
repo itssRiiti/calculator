@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color:rgb(89, 162, 234);
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.cal-body {
+    width:50vw ;
+    height:70vh;
+    color:white;
+    background-color: black;
+    overflow: hidden;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:2px;
+    padding: 10px;
+    
+}
+
+.display {
+    padding:10px ;
+    grid-column: span 4;
+    background-color: white;
+}
+
+.keys {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 41, 39);
+    height:auto;
+    width: auto;
+    border-radius:50% ;
+    
+}
+.zero{
+    grid-column: span 2;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 41, 39);
+    border-radius: ;
+    height:auto;
+    width: auto;
+    border-radius:30px ;
+}
