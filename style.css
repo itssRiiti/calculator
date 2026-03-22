@@ -17,8 +17,7 @@ body {
 }
 
 .cal-body {
-    width:50vw ;
-    height:70vh;
+    width:300px;
     color:white;
     background-color: black;
     overflow: hidden;
@@ -31,13 +30,15 @@ body {
 }
 
 .display {
-    padding:10px ;
+    padding:15px ;
     grid-column: span 4;
     background-color: white;
     border-radius: 5px;
     font-size: 2rem;
     color:black;
     text-align: right;
+    overflow-x: auto;
+    font-weight: bold;
 }
 
 .keys {
@@ -45,11 +46,12 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(41, 41, 39);
-    height:auto;
-    width: auto;
+    height: 60px;;
     border-radius:50% ;
     gap: 10px;
     font-size: 1rem;
+    cursor: pointer;
+    transform: all 0.2s ease;
     
     
 }
@@ -68,9 +70,12 @@ body {
 .keys:hover {
     background-color: blueviolet;
     color: black;
-    cursor: pointer;
     transition: background-color 0.3s ease;
 
+}
+
+.keys:active,.zero:hover{
+    transform: scale(0.95);
 }
 
 .white {
