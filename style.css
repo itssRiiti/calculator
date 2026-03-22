@@ -35,6 +35,9 @@ body {
     grid-column: span 4;
     background-color: white;
     border-radius: 5px;
+    font-size: 2rem;
+    color:black;
+    text-align: right;
 }
 
 .keys {
